@@ -1,0 +1,34 @@
+p{
+	margin: 10px;
+}
+
+html,body{
+	background-image: linear-gradient(#C8D5F4,#B3CFDD);
+	height: 100%;
+}
+
+#content{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+#name{
+	font-size: 40px;
+	font-family: Palatino, serif;
+	
+}
+
+#date{
+	font-size: 16px;
+}
+
+#main_photo{
+	max-width: 100%;
+	max-height: 100%;
+	opacity: 90%;
+}
+
+s{#89AEB2,#97F2F3,#F1E0B0,#F1CDB0,#E7CFC8}
