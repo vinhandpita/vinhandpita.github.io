@@ -1,34 +1,74 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('fonts/alexbrush-regular.woff2') format('woff2'),
+         url('fonts/alexbrush-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 p{
-	margin: 10px;
+	margin: 0;
 }
 
 html,body{
-	background-image: linear-gradient(#C8D5F4,#B3CFDD);
+	background-image: linear-gradient(#FFFFFF,#FFFFFF);
 	height: 100%;
 }
 
 #content{
 	text-align: center;
 	background-color: rgba(255, 255, 255, 1);
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 20px;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 3vw;
 }
 
 #name{
-	font-size: 40px;
-	font-family: Palatino, serif;
-	
+	font-size: 10vw;
+	font-family: 'alex_brushregular';
+	padding-top: 3vw;
+	color: #23395d;
 }
 
-#date{
-	font-size: 16px;
+nav{
+	font-size: 3vw;
+	font-family: Arial;
+	font-weight: bold
+}
+
+nav a{
+	text-decoration: none;
+	color: #bebebe;
+	display: inline;
+	padding-right: 3vw;
+	padding-left: 3vw;
+}
+
+nav a:hover{
+	color: #1e88e5;
 }
 
 #main_photo{
-	max-width: 100%;
+	max-width: 70%;
 	max-height: 100%;
 	opacity: 90%;
 }
 
-s{#89AEB2,#97F2F3,#F1E0B0,#F1CDB0,#E7CFC8}
+#message{
+	font-size: 4vw;
+	font-family: 'alex_brushregular';
+	color: #23395d;
+}
+
+#date{
+	font-size: 3vw;
+	font-family: Lucida Console, Courier, monospace;
+	padding-bottom: 5vw;
+	color: #23395d;
+}
+
+#details{
+	padding-top: 10vw;
+	font-size: 4vw;
+	color: #23395d;
+}
