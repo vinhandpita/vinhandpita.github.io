@@ -73,13 +73,13 @@ nav a:hover{
 	color: #23395d;
 }
 
-#ourStory{
+#ourStory,#location{
 	font-size: 4vw;
 	font-family: 'alex_brushregular';
 	color: #23395d;
 }
 
-#story{
+#story,#church,#address{
 	font-size: 3vw;
 	font-family: 'alex_brushregular';
 	color: #23395d;
