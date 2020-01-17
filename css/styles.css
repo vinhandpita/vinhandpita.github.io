@@ -72,3 +72,15 @@ nav a:hover{
 	font-size: 4vw;
 	color: #23395d;
 }
+
+#ourStory{
+	font-size: 4vw;
+	font-family: 'alex_brushregular';
+	color: #23395d;
+}
+
+#story{
+	font-size: 3vw;
+	font-family: 'alex_brushregular';
+	color: #23395d;
+}
